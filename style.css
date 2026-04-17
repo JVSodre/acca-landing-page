@@ -11,9 +11,11 @@ html, body {
 }
 
 .infografica{
+    transform: rotate(-90deg);
+    opacity: 50%;
     position: fixed;
-    bottom: 0;
-    margin: 2vw;
+    right: -17vw;
+    bottom: 33vh;
     font-size: 0.7rem;
     color: #FDE5CA;
 }
@@ -50,12 +52,14 @@ body{
 
 .logo {
     width: auto;
-    height: auto;
+    height: 20vh;
     max-width: none;
     flex-shrink: 0; /* impede de encolher no flex */
 }
 
 .camiloilustra{
+    width: auto;
+    height: 30vh;
     position: fixed;
     bottom: 0;
     right: 0;
