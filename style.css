@@ -10,14 +10,29 @@ html, body {
     overflow-x: hidden;
 }
 
-.infografica{
-    transform: rotate(-90deg);
-    opacity: 50%;
+.cantinhocamilo{
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    right: -17vw;
-    bottom: 33vh;
+    z-index: 99;
+    bottom: 0;
+    right: 0;
+    align-items: end;
+}
+
+.infografica{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
     font-size: 0.7rem;
     color: #FDE5CA;
+    margin: 3vw;
+    margin-bottom: -3vh;
+    opacity: 60%;
+}
+
+.camiloilustra{
+    width: auto;
+    height: 30vh;
 }
 
 body{
@@ -55,15 +70,6 @@ body{
     height: 20vh;
     max-width: none;
     flex-shrink: 0; /* impede de encolher no flex */
-}
-
-.camiloilustra{
-    width: auto;
-    height: 30vh;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 99;
 }
 
 .botoeshome{
