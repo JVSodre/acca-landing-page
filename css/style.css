@@ -100,6 +100,7 @@ body{
 .botoeshome{
     display: flex;
     flex-direction: column;
+    max-width: 80vw;
 }
 
 a{
