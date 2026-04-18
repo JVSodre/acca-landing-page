@@ -4,36 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACCA me ajuda</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/internacional.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#" class="botaovoltar" onclick="goHome()"><</a>
+        </nav>
+    </header>
     <div class="cantinhocamilo">
         <div class="infografica">
             <p>Site: João Sodré</p>
             <p>Ilustração: Vinícius Legemann Dias</p>
         </div>
-        <img src="Camilo Ilustration.png" alt="" class="camiloilustra">
+        <img src="assets/images/camilo-ilustration.png" alt="" class="camiloilustra">
     </div>
     <main class="page">
-        <img src="Logo ACCA.png" alt="" class="logo">
+        <img src="assets/images/logo-acca.png" alt="" class="logo">
         <div class="botoeshome">
-            <a href="">Horários</a>
-            <a href="">Mapa de Salas</a>
-            <a href="">Sites dos Cursos</a>
-            <a href="">Calendário UFPEL</a>
-            <a href="">Sobre o RU</a>
-            <a href="">Ônibus de Apoio</a>
-            <a href="">Auxílios</a>
-            <a href="">Esportes ACCA</a>
-            <a href="">Links ACCA</a>
-            <a href="">UFPEL Internacional</a>
-            <a href="">Links CADe</a>
+            <a href="#" onclick="loadPage('pages/horarios.html')">Horários</a>
+            <a href="#" onclick="loadPage('pages/mapasalas.html')">Mapa de Salas</a>
+            <a href="#" onclick="loadPage('pages/sitecurso.html')">Sites dos Cursos</a>
+            <a href="#" onclick="loadPage('pages/calendario.html')">Calendário UFPEL</a>
+            <a href="#" onclick="loadPage('pages/sobreoru.html')">Sobre o RU</a>
+            <a href="#" onclick="loadPage('pages/onibusdeapoio.html')">Ônibus de Apoio</a>
+            <a href="#" onclick="loadPage('pages/auxilios.html')">Auxílios</a>
+            <a href="#" onclick="loadPage('pages/esportesacca.html')">Esportes ACCA</a>
+            <a href="#" onclick="loadPage('pages/linkacca.html')">Sobre ACCA</a>
+            <a href="#" onclick="loadPage('pages/internacional.html')">UFPEL Internacional</a>
+            <a href="#" onclick="loadPage('pages/linkscade.html')">Links CADe</a>
         </div>
     </main>
-    <img src="Fundo Bolinha1.png" alt="" class="fundobolinha1">
-    <img src="Fundo Bolinha2.png" alt="" class="fundobolinha2">
+    <img src="assets/images/fundo-bolinha1.png" alt="" class="fundobolinha1">
+    <img src="assets/images/fundo-bolinha2.png" alt="" class="fundobolinha2">
 </body>
+<script src="js/main.js"></script>
 </html>
