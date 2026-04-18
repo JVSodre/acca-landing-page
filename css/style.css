@@ -13,7 +13,7 @@ html, body {
 
 header{
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     z-index: 9999;
 }
@@ -33,6 +33,7 @@ header{
 }
 
 .cantinhocamilo{
+    font-size: 0.1rem;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -46,7 +47,7 @@ header{
 .infografica{
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    font-size: 0.7rem;
+    font-size: 0.5rem !important;
     color: #FDE5CA;
     margin: 3vw;
     margin-bottom: -3vh;
